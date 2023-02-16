@@ -1,0 +1,76 @@
+
+WARM UP
+MISS: L1 --Read-- Start:1 End:2 MISS: L2 --Read-- Start:2 End:52 
+MISS: L1 --Read-- Start:52 End:53 MISS: L2 --Read-- Start:53 End:103 
+MISS: L1 --Read-- Start:103 End:104 MISS: L2 --Read-- Start:104 End:154 
+MISS: L1 --Read-- Start:154 End:155 MISS: L2 --Read-- Start:155 End:205 
+MISS: L1 --Read-- Start:205 End:206 MISS: L2 --Read-- Start:206 End:256 
+MISS: L1 --Read-- Start:256 End:257 MISS: L2 --Read-- Start:257 End:307 
+MISS: L1 --Read-- Start:307 End:308 MISS: L2 --Read-- Start:308 End:358 
+MISS: L1 --Read-- Start:358 End:359 MISS: L2 --Read-- Start:359 End:409 
+MISS: L1 --Read-- Start:409 End:410 MISS: L2 --Read-- Start:410 End:460 
+MISS: L1 --Read-- Start:460 End:461 MISS: L2 --Read-- Start:461 End:511 
+MISS: L1 --Read-- Start:511 End:512 MISS: L2 --Read-- Start:512 End:562 
+MISS: L1 --Read-- Start:562 End:563 MISS: L2 --Read-- Start:563 End:613 
+MISS: L1 --Read-- Start:613 End:614 MISS: L2 --Read-- Start:614 End:664 
+MISS: L1 --Read-- Start:664 End:665 MISS: L2 --Read-- Start:665 End:715 
+MISS: L1 --Read-- Start:715 End:716 MISS: L2 --Read-- Start:716 End:766 
+MISS: L1 --Read-- Start:766 End:767 MISS: L2 --Read-- Start:767 End:817 
+MISS: L1 --Read-- Start:817 End:818 MISS: L2 --Read-- Start:818 End:868 
+MISS: L1 --Read-- Start:868 End:869 MISS: L2 --Read-- Start:869 End:919 
+MISS: L1 --Read-- Start:919 End:920 MISS: L2 --Read-- Start:920 End:970 
+MISS: L1 --Read-- Start:970 End:971 MISS: L2 --Read-- Start:971 End:1021 
+MISS: L1 --Read-- Start:1021 End:1022 MISS: L2 --Read-- Start:1022 End:1072 
+MISS: L1 --Read-- Start:1072 End:1073 MISS: L2 --Read-- Start:1073 End:1123 
+MISS: L1 --Read-- Start:1123 End:1124 MISS: L2 --Read-- Start:1124 End:1174 
+MISS: L1 --Read-- Start:1174 End:1175 MISS: L2 --Read-- Start:1175 End:1225 
+MISS: L1 --Read-- Start:1225 End:1226 MISS: L2 --Read-- Start:1226 End:1276 
+MISS: L1 --Read-- Start:1276 End:1277 MISS: L2 --Read-- Start:1277 End:1327 
+MISS: L1 --Read-- Start:1327 End:1328 MISS: L2 --Read-- Start:1328 End:1378 
+MISS: L1 --Read-- Start:1378 End:1379 MISS: L2 --Read-- Start:1379 End:1429 
+MISS: L1 --Read-- Start:1429 End:1430 MISS: L2 --Read-- Start:1430 End:1480 
+MISS: L1 --Read-- Start:1480 End:1481 MISS: L2 --Read-- Start:1481 End:1531 
+MISS: L1 --Read-- Start:1531 End:1532 MISS: L2 --Read-- Start:1532 End:1582 
+MISS: L1 --Read-- Start:1582 End:1583 MISS: L2 --Read-- Start:1583 End:1633 
+
+RANDOM WRITE (L2 MISS)
+MISS: L1 --Write-- Start:1633 End:10001 
+MISS: L2 --Write-- Start:10001 End:10051 
+
+MISS: L1 --Write-- Start:10051 End:10052 
+MISS: L2 --Write-- Start:10052 End:10102 
+
+MISS: L1 --Read-- Start:10102 End:10103 MISS: L2 --Read-- Start:10103 End:10153 
+MISS: L1 --Read-- Start:10153 End:10154 MISS: L2 --Read-- Start:10154 End:10204 
+MISS: L1 --Write-- Start:10204 End:10205 
+MISS: L2 --Write-- Start:10205 End:10255 
+
+MISS: L1 --Read-- Start:10255 End:10256 MISS: L2 --Read-- Start:10256 End:10306 
+MISS: L1 --Read-- Start:10306 End:10307 MISS: L2 --Read-- Start:10307 End:10357 
+MISS: L1 --Read-- Start:10357 End:10358 MISS: L2 --Read-- Start:10358 End:10408 
+MISS: L1 --Write-- Start:10408 End:10409 
+MISS: L2 --Write-- Start:10409 End:10459 
+
+MISS: L1 --Read-- Start:10459 End:10460 HIT: L2 --Read-- Start:10460 End:10510 
+
+MISS: L1 --Read-- Start:10510 End:10511 HIT: L2 --Read-- Start:10511 End:10561 
+
+MISS: L1 --Write-- Start:10561 End:10562 
+HIT: L2 --Write-- Start:10562 End:10612 
+
+MISS: L1 --Read-- Start:10612 End:10613 MISS: L2 --Read-- Start:10613 End:10663 
+HIT: L1 --Write-- Start:10663 End:10664 
+HIT: L2 --Write-- Start:10664 End:10714 
+
+HIT: L1 --Write-- Start:10714 End:10715 
+HIT: L2 --Write-- Start:10715 End:10765 
+
+
+---End Results---
+2 Hits -- 45 Misses -- 47 Accesses
+L1 Hit Rate: 4.26%
+L1 Miss Rate: 95.74%
+5 Hits -- 42 Misses -- 47 Accesses
+L2 Hit Rate: 10.64%
+L2 Miss Rate: 89.36%
+-----------------

@@ -1,0 +1,121 @@
+WARM UP
+MISS: L1 --Read-- Start:1 End:2 MISS: L2 --Read-- Start:2 End:52 
+MISS: L1 --Read-- Start:52 End:53 MISS: L2 --Read-- Start:53 End:103 
+MISS: L1 --Read-- Start:103 End:104 MISS: L2 --Read-- Start:104 End:154 
+MISS: L1 --Read-- Start:154 End:155 MISS: L2 --Read-- Start:155 End:205 
+MISS: L1 --Read-- Start:205 End:206 Eviction(412) Start:206 End:256 
+MISS: L2 --Read-- Start:256 End:306 
+MISS: L1 --Read-- Start:306 End:307 Eviction(413) Start:307 End:357 
+MISS: L2 --Read-- Start:357 End:407 
+MISS: L1 --Read-- Start:407 End:408 Eviction(414) Start:408 End:458 
+MISS: L2 --Read-- Start:458 End:508 Eviction(414) Start:508 End:558 
+
+MISS: L1 --Read-- Start:558 End:559 Eviction(415) Start:559 End:609 
+MISS: L2 --Read-- Start:609 End:659 Eviction(415) Start:659 End:709 
+
+MISS: L1 --Read-- Start:709 End:710 Eviction(416) Start:710 End:810 
+MISS: L2 --Read-- Start:810 End:860 Eviction(416) Start:860 End:960 
+
+MISS: L1 --Read-- Start:960 End:961 Eviction(417) Start:961 End:1061 
+MISS: L2 --Read-- Start:1061 End:1111 Eviction(417) Start:1111 End:1211 
+
+MISS: L1 --Read-- Start:1211 End:1212 Eviction(418) Start:1212 End:1312 
+MISS: L2 --Read-- Start:1312 End:1362 Eviction(418) Start:1362 End:1462 
+
+MISS: L1 --Read-- Start:1462 End:1463 Eviction(419) Start:1463 End:1563 
+MISS: L2 --Read-- Start:1563 End:1613 Eviction(419) Start:1613 End:1713 
+
+MISS: L1 --Read-- Start:1713 End:1714 Eviction(420) Start:1714 End:1814 
+MISS: L2 --Read-- Start:1814 End:1864 Eviction(420) Start:1864 End:1964 
+
+MISS: L1 --Read-- Start:1964 End:1965 Eviction(421) Start:1965 End:2065 
+MISS: L2 --Read-- Start:2065 End:2115 Eviction(421) Start:2115 End:2215 
+
+MISS: L1 --Read-- Start:2215 End:2216 Eviction(422) Start:2216 End:2316 
+MISS: L2 --Read-- Start:2316 End:2366 Eviction(422) Start:2366 End:2466 
+
+MISS: L1 --Read-- Start:2466 End:2467 Eviction(423) Start:2467 End:2567 
+MISS: L2 --Read-- Start:2567 End:2617 Eviction(423) Start:2617 End:2717 
+
+MISS: L1 --Read-- Start:2717 End:2718 Eviction(408) Start:2718 End:2768 
+MISS: L2 --Read-- Start:2768 End:2818 
+MISS: L1 --Read-- Start:2818 End:2819 Eviction(409) Start:2819 End:2869 
+MISS: L2 --Read-- Start:2869 End:2919 
+MISS: L1 --Read-- Start:2919 End:2920 Eviction(410) Start:2920 End:2970 
+MISS: L2 --Read-- Start:2970 End:3020 
+MISS: L1 --Read-- Start:3020 End:3021 Eviction(411) Start:3021 End:3071 
+MISS: L2 --Read-- Start:3071 End:3121 
+MISS: L1 --Read-- Start:3121 End:3122 Eviction(412) Start:3122 End:3222 
+MISS: L2 --Read-- Start:3222 End:3272 Eviction(412) Start:3272 End:3372 
+
+MISS: L1 --Read-- Start:3372 End:3373 Eviction(413) Start:3373 End:3473 
+MISS: L2 --Read-- Start:3473 End:3523 Eviction(413) Start:3523 End:3623 
+
+MISS: L1 --Read-- Start:3623 End:3624 Eviction(414) Start:3624 End:3724 
+MISS: L2 --Read-- Start:3724 End:3774 Eviction(414) Start:3774 End:3874 
+
+MISS: L1 --Read-- Start:3874 End:3875 Eviction(415) Start:3875 End:3975 
+MISS: L2 --Read-- Start:3975 End:4025 Eviction(415) Start:4025 End:4125 
+
+MISS: L1 --Read-- Start:4125 End:4126 Eviction(416) Start:4126 End:4226 
+MISS: L2 --Read-- Start:4226 End:4276 Eviction(416) Start:4276 End:4376 
+
+MISS: L1 --Read-- Start:4376 End:4377 Eviction(417) Start:4377 End:4477 
+MISS: L2 --Read-- Start:4477 End:4527 Eviction(417) Start:4527 End:4627 
+
+MISS: L1 --Read-- Start:4627 End:4628 Eviction(418) Start:4628 End:4728 
+MISS: L2 --Read-- Start:4728 End:4778 Eviction(418) Start:4778 End:4878 
+
+MISS: L1 --Read-- Start:4878 End:4879 Eviction(419) Start:4879 End:4979 
+MISS: L2 --Read-- Start:4979 End:5029 Eviction(419) Start:5029 End:5129 
+
+MISS: L1 --Read-- Start:5129 End:5130 Eviction(420) Start:5130 End:5230 
+MISS: L2 --Read-- Start:5230 End:5280 Eviction(420) Start:5280 End:5380 
+
+MISS: L1 --Read-- Start:5380 End:5381 Eviction(421) Start:5381 End:5481 
+MISS: L2 --Read-- Start:5481 End:5531 Eviction(421) Start:5531 End:5631 
+
+MISS: L1 --Read-- Start:5631 End:5632 Eviction(422) Start:5632 End:5732 
+MISS: L2 --Read-- Start:5732 End:5782 Eviction(422) Start:5782 End:5882 
+
+MISS: L1 --Read-- Start:5882 End:5883 Eviction(423) Start:5883 End:5983 
+MISS: L2 --Read-- Start:5983 End:6033 Eviction(423) Start:6033 End:6133 
+
+
+RANDOM READ/WRITE
+HIT: L1 --Write-- Start:6133 End:10001 
+
+MISS: L1 --Read-- Start:10001 End:10002 Eviction(412) Start:10002 End:10102 
+MISS: L2 --Read-- Start:10102 End:10152 Eviction(412) Start:10152 End:10252 
+
+MISS: L1 --Write-- Start:10252 End:10253 
+MISS: L2 --Write-- Start:10253 End:10303 
+Eviction(417) Start:10303 End:10403 
+MISS: L1 --Read-- Start:10403 End:10404 Eviction(415) Start:10404 End:10454 
+MISS: L2 --Read-- Start:10454 End:10504 Eviction(415) Start:10504 End:10554 
+
+MISS: L1 --Write-- Start:10554 End:10555 
+Eviction(416) Start:10555 End:10655 MISS: L2 --Write-- Start:10655 End:10705 
+
+MISS: L1 --Read-- Start:10705 End:10706 Eviction(416) Start:10706 End:10756 
+MISS: L2 --Read-- Start:10756 End:10806 Eviction(416) Start:10806 End:10856 
+
+MISS: L1 --Read-- Start:10856 End:10857 Eviction(419) Start:10857 End:10957 
+MISS: L2 --Read-- Start:10957 End:11007 Eviction(419) Start:11007 End:11107 
+
+HIT: L1 --Read-- Start:11107 End:11108 
+
+MISS: L1 --Write-- Start:11108 End:11109 
+Eviction(412) Start:11109 End:11159 MISS: L2 --Write-- Start:11159 End:11209 
+Eviction(412) Start:11209 End:11309 
+HIT: L1 --Write-- Start:11309 End:11310 
+
+
+---End Results---
+3 Hits -- 39 Misses -- 42 Accesses
+L1 Hit Rate: 7.14%
+L1 Miss Rate: 92.86%
+0 Hits -- 73 Misses -- 73 Accesses
+L2 Hit Rate: 0.00%
+L2 Miss Rate: 100.00%
+-----------------
